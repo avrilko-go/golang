@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 时间复杂度 nlogn
+
 func main() {
 	list3 := []int{5, 9, 1, 8, 14, 6, 49, 25, 4, 3}
 	quickSort(list3, 0, len(list3)-1)

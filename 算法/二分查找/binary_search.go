@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 时间复杂度 log(n)
 func main() {
 	arr := []int{1, 3, 5, 9, 11, 100}
 	num := 100
